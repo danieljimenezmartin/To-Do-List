@@ -15,7 +15,7 @@
 <br/>
 
 ## <a name="demo"></a>Demo 📹
-![tarjeta](https://github.com/danieljimenezmartin/tarjeta-interactiva/assets/117579989/0ece363b-104b-435f-8b1c-d054ff9dbca1)  
+![todolist](https://github.com/danieljimenezmartin/To-Do-List/assets/117579989/d300b481-6fe7-498c-993a-61c236459605)
 <br/>
 
 ## <a name="objetivos"></a>Objetivos 🎯
@@ -30,7 +30,8 @@ Este proyecto no necesita instalación.
 <br/>
 
 ## <a name="ver-proyecto"></a>Ver el proyecto ⚡
-- [https://danieljimenezmartin.github.io/tarjeta-interactiva/](https://danieljimenezmartin.github.io/Tarjeta-interactiva/)
+
+- https://danieljimenezmartin.github.io/To-Do-List/
 <br/>
 
 ## <a name="desarrollo"></a>Desarrollo 📐
