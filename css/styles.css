@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(65, 65, 65);
+    padding-top: 5rem;
+    font-family: 'Rock Salt', cursive;
+}
+
+.container {
+    padding-top: 10rem;
+    width: 600px;
+    height: 920px;
+    margin: auto;
+    background: url(../assets/fondolibreta.png) no-repeat;
+    background-size: contain;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: .8rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+#form {
+    text-align: center;
+}
+
+#form input {
+    background-color: transparent;
+    border: none;
+    font-family: inherit;
+    font-size: 1.5em;
+}
+
+#buttons {
+    text-align: center;
+    padding-left: 6rem;
+    margin-bottom: 2rem;
+}
+
+#buttons button {
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 .6rem;
+    border-radius: 5rem;
+    padding: 1rem;
+}
+
+#taskList {
+    padding-left: 1.5rem;
+    font-size: 1.8em;
+}
+
+#taskList div {
+    display: flex;
+    align-items: center;
+}
+
+#taskList div > * {
+    margin: 0 1.2rem;
+}
+
+#taskList input {
+    appearance: none;
+}
+
+#taskList input, #taskList button {
+    display: inline-block;
+    font-family:'Bootstrap-icons';
+}
+
+#taskList input::before {
+    content: '\F28A';
+    font-size: 3em;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+#taskList input:checked::before {
+    content: "\F270";
+    }
+
+#taskList button {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+}
+
+#taskList button::before {
+    content: '\F628';
+    font-size: 2em;
+}
+
+.completed label {
+    text-decoration: line-through;
+    color: grey;
+}
